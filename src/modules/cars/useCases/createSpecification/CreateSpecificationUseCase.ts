@@ -1,8 +1,11 @@
 import { inject, injectable } from 'tsyringe';
 
-import { AppError } from '../../../../errors/AppError';
-import { Specification } from '../../entities/Specification';
-import { ICreateSpecificationDTO, ISpecificationsRepository } from '../../repositories/ISpecificationsRepository';
+import { AppError } from '@errors/AppError';
+import { Specification } from '@modules/cars/entities/Specification';
+import {
+  ICreateSpecificationDTO,
+  ISpecificationsRepository,
+} from '@modules/cars/repositories/ISpecificationsRepository';
 
 @injectable()
 class CreateSpecificationUseCase {
