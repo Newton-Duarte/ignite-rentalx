@@ -8,7 +8,8 @@
     "paths": {
       "@modules/*": ["modules/*"],
       "@shared/*": ["shared/*"],
-      "@errors/*": ["errors/*"]
+      "@errors/*": ["errors/*"],
+      "@config/*": ["config/*"]
     },
     "resolveJsonModule": true,
     "esModuleInterop": true,
