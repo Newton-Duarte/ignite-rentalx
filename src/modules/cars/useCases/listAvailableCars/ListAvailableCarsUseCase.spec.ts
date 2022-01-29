@@ -61,8 +61,6 @@ describe('List Cars', () => {
 
     const availableCarsByBrand = await listAvailableCarsUseCase.execute({ brand: 'Brand01' });
 
-    console.log(availableCarsByBrand);
-
     expect(availableCarsByBrand.length).toEqual(2);
   });
 });
